@@ -15,7 +15,7 @@ async def startxd(client, message):
 async def start(client, message):
     sender_mention = message.from_user.mention
     return await message.reply(
-        f"Hi! {sender_mention}, This is a video streaming bot. Here is a link to my source code!",
+        f"Hi! {sender_mention}, This is a video streaming bot",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
