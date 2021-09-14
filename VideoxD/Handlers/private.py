@@ -8,14 +8,14 @@ from .. import HELP, bot
 
 @bot.on_message(filters.command("alive"))
 async def startxd(client, message):
-    return await message.reply("Yes I am Alive!,Who Cares About Someone Else!")
+    return await message.reply("𝐘𝐄𝐀𝐇 𝐁𝐀𝐁𝐘 𝐈 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄!")
 
 
 @bot.on_message(filters.command(["start", "help"]) & filters.private)
 async def start(client, message):
     sender_mention = message.from_user.mention
     return await message.reply(
-        f"Hi! {sender_mention}, This is a video streaming bot",
+        f"Hi! {sender_mention}, 𝐇𝐄𝐘 𝐈 𝐀𝐌 𝐇𝐎𝐓 𝐕𝐈𝐃𝐄𝐎 𝐏𝐋𝐀𝐘𝐄𝐑 𝐁𝐎𝐓",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
