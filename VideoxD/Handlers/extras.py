@@ -13,7 +13,7 @@ async def pause(client, message):
     admins = await admin_check(client, message)
     if message.from_user.id not in admins:
         return await message.reply(
-            "You Dont Have Sufficient Permissions!, Make Sure You Have Manage Video Chats"
+            "BHAK BETICHOD..."
         )
     if Calls.is_paused:
         return await message.reply(
@@ -32,7 +32,7 @@ async def resume(client, message):
     admins = await admin_check(client, message)
     if message.from_user.id not in admins:
         return await message.reply(
-            "You Dont Have Sufficient Permissions!, Make Sure You Have Manage Video Chats"
+            "BHAK BETICHOD..."
         )
     if not Calls.is_paused:
         return await message.reply(
