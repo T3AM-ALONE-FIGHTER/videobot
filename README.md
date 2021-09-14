@@ -23,7 +23,7 @@
 ## Deployment Methods and Sessions.
 
 ### Railway 
-<p><a href="https://railway.app/new/template?template=https://github.com/VegetaxD/VideoStreamBot&envs=API_ID,API_HASH,STRING_SESSION,BOT_TOKEN,VIDEO_CHAT_ID"><img src="https://img.shields.io/badge/Deploy%20To%20Railway-blueviolet?style=for-the-badge&logo=railway" width="200""/></a></p>
+<p><a href="https://railway.app/new/template?template=https://github.com/PANDITOP/VIDEOBOT=API_ID,API_HASH,STRING_SESSION,BOT_TOKEN,VIDEO_CHAT_ID"><img src="https://img.shields.io/badge/Deploy%20To%20Railway-blueviolet?style=for-the-badge&logo=railway" width="200""/></a></p>
 
 ### Heroku 
 <p><a href="https://heroku.com/deploy?template=https://github.com/VegetaxD/VideoStreamBot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
@@ -35,7 +35,7 @@
 
 ## Deploy Locally or Server ( NO SUPPORT FOR WINDOWS, Dont ask me if you use Windows )
 ``` 
-vegeta@arch $ git clone https://github.com/VegetaxD/VideoStreamBot
+vegeta@arch $ git clone https://github.com/PANDITOP/VIDEOBOT
 vegeta@arch $ cd VideoStreamBot
 vegeta@arch $ pip3 install -U -r requirements.txt
 vegeta@arch $ cp sample.env .env
@@ -82,33 +82,12 @@ vegeta@arch $ python3 -m VideoxD
 
 ## Credits
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [MarshalX/TgCalls](https://github.com/MarshalX/tgcalls)
+- [PANDITX/TgCalls](https://github.com/PANDIT/OPVIDEOBOT)
     
 ## License
     
 ```sh
 MIT License
 VideoStreamBot, Telegram Video Calls Bot
-Copyright (c) 2021 Aarav Arora
+Copyright (c) 2021 PANDIT
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
- 
- 
- 
